@@ -1,4 +1,4 @@
-### Hi there 👋
+### Welcome to my Github profile page 👋
 - 🔭 I’m currently working on improving my skills as a Front-End Developer
 - 🌱 I’m currently learning CS50 and Angular
 - ⚡ Fun fact: I teach dance-workouts twice a week
