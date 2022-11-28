@@ -3,9 +3,9 @@
 ```javascript
 
 const Krishen: Occupation = [
-        Front-End Developer,
-        Father,
-        Dance Teacher
+        'Front-End Developer',
+        'Father',
+        'Dance Teacher',
         ];
 
 class About extends Me
