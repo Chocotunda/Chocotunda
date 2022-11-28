@@ -8,41 +8,39 @@ const Krishen: Occupation = [
         'Dance Teacher',
         ];
 
-class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
+class About extends Me {
+    
+    public getCurrentWorkplace(): object {
+        return {
+            company: 'InShared',
+            position: 'Front-End Developer'
+        };
+    }
+
+    public getDailyKnowledge(): string[] {
         return [
-            workplace {
-                company: 'InShared',
-                position: 'Front-End Developer'         
-            }
+            'HTML5',
+            'CSS3',
+            'JavaScript',
+            'TypeScript',
+            'Angular',
+            'React',
+            'Vue',
+            'Node.js',
+            'Express',
+            'MongoDB',
+            'MySQL',
+            'Git',
+            'GitHub',
+            'Jira',
         ];
     }
 
-    public function getDailyKnowledge(): array
-    {
-        return [
-            HTML5,
-            CSS,
-            Javascript,
-            Typescript,
-            AngularJS,
-            Angular,
-            React,
-            Reduc,
-            RxJS,
-            SQJ,
-        ];
-    }
-    
-    public function getCurrentlyLearning(): string
-    {
+    public getCurrentlyLearning(): string {
         return 'CS50 and Angular';
     }
 
-    public function getFutureGoal(): string
-    {
+    public getFutureGoal(): string {
         return 'Grow to become an engineer';
     }
 }
