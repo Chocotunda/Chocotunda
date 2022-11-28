@@ -13,10 +13,10 @@ class About extends Me
     public function getCurrentWorkplace(): array
     {
         return [
-            'workplace' => [
-                'company' => 'InShared',
-                'position' => 'Front-End Developer'         
-            ]
+            'workplace' {
+                'company': 'InShared',
+                'position': 'Front-End Developer'         
+            }
         ];
     }
 
