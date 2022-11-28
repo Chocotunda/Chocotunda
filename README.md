@@ -43,7 +43,7 @@ class About extends Me
 
     public function getFutureGoal(): string
     {
-        return 'To grow and become an engineer';
+        return 'Grow to become an engineer';
     }
 }
 ```
