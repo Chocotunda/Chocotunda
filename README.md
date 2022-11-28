@@ -1,13 +1,12 @@
-### Front-End Developer, Father and Dance teacher 👋
-- 🔭 I’m currently working on improving my skills as a Front-End Developer
-- 🌱 I’m currently learning CS50 and Angular
-- ⚡ Fun fact: I teach dance-workouts twice a week
-
-
+### Hi! My name is Krishen 👋
 
 ```javascript
 
-namespace Chocotunda;
+const Krishen: Occupation = [
+        Front-End Developer,
+        Father,
+        Dance Teacher
+        ];
 
 class About extends Me
 {
@@ -24,17 +23,22 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-            HTML5::class,
-            CSS::class,
-            Javascript::class,
-            Typescript::class,
-            AngularJS::class,
-            Angular::class,
-            React::class,
-            Reduc::class,
-            RxJS::class,
-            SQJ::class,
+            HTML5,
+            CSS,
+            Javascript,
+            Typescript,
+            AngularJS,
+            Angular,
+            React,
+            Reduc,
+            RxJS,
+            SQJ,
         ];
+    }
+    
+    public function getCurrentlyLearning(): string
+    {
+        return 'CS50 and Angular';
     }
 
     public function getFutureGoal(): string
