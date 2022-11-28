@@ -1,6 +1,6 @@
 ### Hi! My name is Krishen 👋
 
-```javascript
+```typescript
 
 const Krishen: Occupation = [
         'Front-End Developer',
