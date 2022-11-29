@@ -17,6 +17,10 @@ class About extends Me {
         };
     }
 
+    public getGithubRepoStatus(): string {
+        return 'Not up to date because of workplace and Bitbucket'
+    }
+    
     public getDailyKnowledge(): string[] {
         return [
             'HTML5',
@@ -32,6 +36,7 @@ class About extends Me {
             'MySQL',
             'Git',
             'GitHub',
+            'Bitbucket',
             'Jira',
         ];
     }
