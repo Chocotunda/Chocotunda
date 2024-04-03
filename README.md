@@ -3,7 +3,7 @@
 ```typescript
 
 const Krishen: Occupation = [
-        'Front-End Developer',
+        'Front-End Engineer',
         'Father',
         'Dance Teacher',
         ];
@@ -12,8 +12,8 @@ class About extends Me {
     
     public getCurrentWorkplace(): object {
         return {
-            company: 'InShared',
-            position: 'Front-End Developer'
+            company: 'Grasp Innovations',
+            position: 'Front-End Engineer'
         };
     }
 
@@ -29,7 +29,6 @@ class About extends Me {
             'TypeScript',
             'Angular',
             'React',
-            'Vue',
             'Node.js',
             'Express',
             'MongoDB',
@@ -37,6 +36,7 @@ class About extends Me {
             'Git',
             'GitHub',
             'Bitbucket',
+            'GitLab',
             'Jira',
         ];
     }
@@ -46,7 +46,7 @@ class About extends Me {
     }
 
     public getFutureGoal(): string {
-        return 'Grow to become an engineer';
+        return 'Grow to become an fullstack engineer';
     }
 }
 ```
