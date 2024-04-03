@@ -46,7 +46,7 @@ class About extends Me {
     }
 
     public getFutureGoal(): string {
-        return 'Grow to become an fullstack engineer';
+        return 'Aiming to become an fullstack engineer';
     }
 }
 ```
