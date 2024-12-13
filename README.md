@@ -12,7 +12,7 @@ class About extends Me {
     
     public getCurrentWorkplace(): object {
         return {
-            company: 'Grasp Innovations',
+            company: 'Rovict',
             position: 'Front-End Engineer'
         };
     }
@@ -29,7 +29,9 @@ class About extends Me {
             'TypeScript',
             'Angular',
             'React',
-            'Node.js',
+            'Vue',
+            'Nuxt',
+            'Node',
             'Express',
             'MongoDB',
             'MySQL',
