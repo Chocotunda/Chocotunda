@@ -32,9 +32,6 @@ class About extends Me {
             'Vue',
             'Nuxt',
             'Node',
-            'Express',
-            'MongoDB',
-            'MySQL',
             'Git',
             'GitHub',
             'Bitbucket',
@@ -44,7 +41,7 @@ class About extends Me {
     }
 
     public getCurrentlyLearning(): string {
-        return 'CS50 and Angular';
+        return 'CS50 and Vue.js';
     }
 
     public getFutureGoal(): string {
