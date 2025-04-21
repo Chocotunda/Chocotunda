@@ -18,7 +18,7 @@ class About extends Me {
     }
 
     public getGithubRepoStatus(): string {
-        return 'Not up to date because of workplace and other git hosting environment'
+        return 'Not up to date because of workplace and other git hosting environments'
     }
     
     public getDailyKnowledge(): string[] {
