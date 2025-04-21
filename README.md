@@ -13,7 +13,7 @@ class About extends Me {
     public getCurrentWorkplace(): object {
         return {
             company: 'Rovict',
-            position: 'Front-End Engineer'
+            position: 'Frontend Engineer'
         };
     }
 
